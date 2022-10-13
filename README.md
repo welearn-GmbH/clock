@@ -2,6 +2,13 @@
 
 A simple implementation of the upcoming PSR-20 clock.
 
+## Installation
+
+```
+composer require welearn/clock
+```
+Or see https://packagist.org/packages/welearn/clock
+
 # Clock implementations
 
 ## Clock
