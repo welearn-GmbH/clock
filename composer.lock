@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "334b6d7e14b17cbbdcb687cc6801bbd5",
-    "packages": [],
+    "content-hash": "4b8a5d4ce03d92090acdb76c0dfe85ac",
+    "packages": [
+        {
+            "name": "psr/clock",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e1ba75833cec6d3c5d3f7e6d905adc6f9c1aa570"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e1ba75833cec6d3c5d3f7e6d905adc6f9c1aa570",
+                "reference": "e1ba75833cec6d3c5d3f7e6d905adc6f9c1aa570",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "[WIP] Not yet accepted Common interface for reading the clock. Might change at any time without prior notice!",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/clock/tree/master",
+                "issues": "https://github.com/php-fig/clock/issues"
+            },
+            "time": "2022-06-20T15:45:39+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -1740,7 +1789,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "psr/clock": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
