@@ -1,5 +1,7 @@
 [![PHP Composer](https://github.com/welearn-GmbH/clock/actions/workflows/php.yml/badge.svg?branch=master)](https://github.com/welearn-GmbH/clock/actions/workflows/php.yml)
 
+> Better use https://symfony.com/doc/current/components/clock.html as it's symfony standard!
+
 # welearn/clock
 
 A simple implementation of the upcoming PSR-20 clock.
